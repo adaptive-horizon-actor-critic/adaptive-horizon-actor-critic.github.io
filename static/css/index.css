@@ -223,3 +223,15 @@ body {
   /* ...and bring it back again */
   margin-left: -100%;
 }
+
+.logo-container {
+  display: flex;              /* Enables Flexbox */
+  justify-content: center;    /* Horizontally center aligns the children */
+  align-items: center;        /* Vertically center aligns the children */
+}
+
+.logo-container img {
+  width: 33.33%;              /* Each logo takes up one-third of the container */
+  height: auto;               /* Maintain aspect ratio */
+  padding: 10px;              /* Optional: Adds space around the logos */
+}
